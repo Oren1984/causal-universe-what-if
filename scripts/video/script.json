@@ -1,0 +1,21 @@
+[
+  {"scene": 1, "en": "What if changing one variable could reshape an entire world?", "he": "מה אם שינוי של משתנה אחד היה יכול לעצב מחדש עולם שלם?"},
+  {"scene": 1, "en": "This is Causal Universe: a small simulated ecosystem, built to show what a change really causes.", "he": "זהו Causal Universe: מערכת אקולוגית קטנה בסימולציה, שנבנתה כדי להראות מה שינוי באמת גורם."},
+  {"scene": 2, "en": "Here is the world. Sunlight shapes the rain. Rain fills the pond. Water grows the plants.", "he": "זה העולם. אור השמש משפיע על הגשם. הגשם ממלא את הבריכה. המים מצמיחים את הצמחים."},
+  {"scene": 2, "en": "Plants produce food, and food sustains the creatures.", "he": "הצמחים מייצרים מזון, והמזון מקיים את היצורים."},
+  {"scene": 2, "en": "Each of these links is an explicit equation in a structural causal model, computed in Python.", "he": "כל קשר כזה הוא משוואה מפורשת במודל סיבתי מבני, שמחושב בפייתון."},
+  {"scene": 3, "en": "Now we create a twin. World A and World B start identical, with the same weather and the same random luck.", "he": "עכשיו ניצור תאום. עולם A ועולם B מתחילים זהים, עם אותו מזג אוויר ואותו מזל אקראי."},
+  {"scene": 3, "en": "On day sixty, in World B only, we reach in and set the rainfall to eighty-five percent.", "he": "ביום שישים, רק בעולם B, אנחנו מתערבים וקובעים את הגשם על שמונים וחמישה אחוזים."},
+  {"scene": 3, "en": "This is an intervention. We do not wait for a rainy season. We replace the rainfall equation with a fixed value.", "he": "זוהי התערבות. איננו מחכים לעונה גשומה. אנחנו מחליפים את משוואת הגשם בערך קבוע."},
+  {"scene": 4, "en": "Watch the change travel. Water rises at once. Plants follow after four days, food after eight, and creatures after fourteen.", "he": "ראו איך השינוי מתפשט. המים עולים מיד. הצמחים מגיבים אחרי ארבעה ימים, המזון אחרי שמונה, והיצורים אחרי ארבעה־עשר."},
+  {"scene": 4, "en": "The causal graph shows why. The arrow into rainfall is cut, and everything downstream lights up.", "he": "הגרף הסיבתי מסביר מדוע. החץ שנכנס לגשם נחתך, וכל מה שנמצא במורד הזרם נדלק."},
+  {"scene": 4, "en": "Sunlight sits upstream of rainfall, so it stays exactly the same in both worlds.", "he": "אור השמש נמצא במעלה הזרם מהגשם, ולכן הוא נשאר זהה לחלוטין בשני העולמות."},
+  {"scene": 5, "en": "By the end, World B holds far more life. Since the two worlds share everything except the intervention, that difference is its effect.", "he": "בסוף, בעולם B יש הרבה יותר חיים. מכיוון ששני העולמות חולקים הכול מלבד ההתערבות, ההבדל הזה הוא ההשפעה שלה."},
+  {"scene": 5, "en": "The measurements confirm it. After the intervention, the creature population averages forty percent higher.", "he": "המדידות מאשרות זאת. אחרי ההתערבות, אוכלוסיית היצורים גבוהה בממוצע בארבעים אחוזים."},
+  {"scene": 5, "en": "Repeated across thirty random seeds, the effect holds: plus zero point two two, with a narrow confidence interval.", "he": "בחזרה על פני שלושים זרעים אקראיים, ההשפעה נשמרת: פלוס 0.22, עם רווח סמך צר."},
+  {"scene": 6, "en": "But observing is not intervening. Across three hundred worlds that we only watched, the rainier ones look less green.", "he": "אבל תצפית איננה התערבות. בשלוש מאות עולמות שרק צפינו בהם, הגשומים יותר נראים ירוקים פחות."},
+  {"scene": 6, "en": "Why? Sunny climates get less rain, yet grow plants faster. Sunlight is a confounder.", "he": "מדוע? באקלים שטוף שמש יורד פחות גשם, אך הצמחים גדלים מהר יותר. אור השמש הוא משתנה מערפל."},
+  {"scene": 6, "en": "When we set the rain ourselves, plants grow. The correlation pointed the wrong way.", "he": "כשאנחנו קובעים את הגשם בעצמנו, הצמחים גדלים. המתאם הצביע לכיוון ההפוך."},
+  {"scene": 6, "en": "One caveat. This is a designed, synthetic world. It demonstrates causal reasoning. It does not discover laws of nature.", "he": "הסתייגות אחת. זהו עולם סינתטי שתוכנן מראש. הוא מדגים חשיבה סיבתית. הוא אינו מגלה חוקי טבע."},
+  {"scene": 7, "en": "Causal Universe. What if? Developed and built by Oren Salami.", "he": "Causal Universe. מה אם? פותח ונבנה על ידי Oren Salami."}
+]

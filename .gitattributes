@@ -1,0 +1,5 @@
+# Keep LF line endings on every platform so scripts and generated results stay byte-identical.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary

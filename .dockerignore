@@ -1,0 +1,11 @@
+.git
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+docs
+results
+scripts
+frontend/e2e
+frontend/test-results
+backend/tests

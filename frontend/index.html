@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Causal Universe: What If?</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <h1>Causal Universe</h1>
+        <p>What happens when we change one thing?</p>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Views">
+        <button role="tab" id="tab-explore" data-view="explore" aria-selected="true">Explore the Universe</button>
+        <button role="tab" id="tab-graph" data-view="graph" aria-selected="false">Cause &amp; Effect</button>
+        <button role="tab" id="tab-evidence" data-view="evidence" aria-selected="false">Experimental Evidence</button>
+      </nav>
+    </header>
+
+    <p id="error" class="error" role="alert" hidden></p>
+
+    <main>
+      <section id="view-explore" class="view" role="tabpanel" aria-labelledby="tab-explore">
+        <div class="controls" aria-label="Experiment controls">
+          <label>Scenario
+            <select id="scenario"></select>
+          </label>
+          <button id="btn-new" title="Same climate, new random weather">New scenario</button>
+          <span class="sep" aria-hidden="true"></span>
+          <label>Intervention
+            <select id="intervention"></select>
+          </label>
+          <label class="slider">Set to <output id="value-out" for="value">0.85</output>
+            <input id="value" type="range" min="0" max="1" step="0.05" value="0.85" />
+          </label>
+          <button id="btn-run" class="primary">Run comparison</button>
+        </div>
+
+        <div class="worlds">
+          <figure class="world world-a">
+            <figcaption><span class="tag">World A</span> Baseline <small id="caption-a">no intervention</small></figcaption>
+            <canvas id="canvas-a" aria-label="Animated baseline ecosystem"></canvas>
+          </figure>
+          <figure class="world world-b">
+            <figcaption><span class="tag">World B</span> Intervention <small id="caption-b">no intervention yet</small></figcaption>
+            <canvas id="canvas-b" aria-label="Animated ecosystem under intervention"></canvas>
+          </figure>
+        </div>
+
+        <div class="transport">
+          <button id="btn-play" class="primary">Start</button>
+          <button id="btn-reset">Reset</button>
+          <button id="btn-replay">Replay</button>
+          <label class="timeline">
+            <span id="clock">Day 0 / 239</span>
+            <span class="track">
+              <input id="scrub" type="range" min="0" max="239" step="1" value="0" aria-label="Simulation day" />
+              <span id="do-marker" class="do-marker" hidden>do</span>
+            </span>
+          </label>
+          <label class="check"><input id="highlights" type="checkbox" checked /> Causal highlights</label>
+          <button id="btn-graph">Show causal graph</button>
+        </div>
+
+        <ol id="chain" class="chain" aria-label="Causal chain, World A versus World B"></ol>
+        <p id="status" class="status" aria-live="polite"></p>
+      </section>
+
+      <section id="view-graph" class="view" role="tabpanel" aria-labelledby="tab-graph" hidden>
+        <div class="graph-layout">
+          <div id="graph" class="graph"></div>
+          <aside id="node-info" class="panel" aria-live="polite"></aside>
+        </div>
+      </section>
+
+      <section id="view-evidence" class="view" role="tabpanel" aria-labelledby="tab-evidence" hidden>
+        <div id="evidence-run"></div>
+        <div id="evidence-experiments"></div>
+      </section>
+    </main>
+
+    <footer>Synthetic world with designed causal mechanisms. Developed and built by Oren Salami.</footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

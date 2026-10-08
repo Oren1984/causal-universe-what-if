@@ -1,0 +1,10 @@
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.venv/
+test-results/
+playwright-report/
+*.pyc
+.venv-video/
+scripts/video/.cache/

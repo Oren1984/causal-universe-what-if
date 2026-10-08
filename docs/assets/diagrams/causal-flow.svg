@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" font-family="Segoe UI, Arial, sans-serif" role="img" aria-label="Causal graph of the Causal Universe model">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8fa3c7"/></marker>
+  </defs>
+  <rect width="940" height="400" rx="14" fill="#111a2b"/>
+  <g fill="none" stroke="#8fa3c7" stroke-width="2" marker-end="url(#a)">
+    <path d="M186 102 L118 216"/>
+    <path d="M262 102 L440 214"/>
+    <path d="M162 250 L202 250"/>
+    <path d="M352 250 L392 250"/>
+    <path d="M542 250 L582 250"/>
+    <path d="M732 250 L772 250"/>
+    <path d="M330 218 L632 96"/>
+    <path d="M500 218 L662 106"/>
+    <path d="M830 218 L728 106"/>
+    <g stroke-dasharray="6 5">
+      <path d="M254 284 C236 336 324 336 306 290"/>
+      <path d="M444 284 C426 336 514 336 496 290"/>
+      <path d="M634 284 C616 336 704 336 686 290"/>
+      <path d="M824 284 C806 336 894 336 876 290"/>
+      <path d="M806 284 C790 392 720 392 706 290"/>
+    </g>
+  </g>
+  <g fill="#18243a" stroke="#8fa3c7" stroke-width="1.5">
+    <rect x="150" y="38" width="140" height="64" rx="12"/>
+    <rect x="630" y="38" width="140" height="64" rx="12"/>
+    <rect x="20" y="218" width="140" height="64" rx="12"/>
+    <rect x="210" y="218" width="140" height="64" rx="12"/>
+    <rect x="400" y="218" width="140" height="64" rx="12"/>
+    <rect x="590" y="218" width="140" height="64" rx="12"/>
+    <rect x="780" y="218" width="140" height="64" rx="12"/>
+  </g>
+  <g fill="#eaf0fa" font-size="16" font-weight="600" text-anchor="middle">
+    <text x="220" y="76">Sunlight</text>
+    <text x="700" y="76">Health</text>
+    <text x="90" y="256">Rainfall</text>
+    <text x="280" y="256">Water</text>
+    <text x="470" y="256">Vegetation</text>
+    <text x="660" y="256">Food</text>
+    <text x="850" y="256">Creatures</text>
+  </g>
+  <g fill="#a9b8d0" font-size="12">
+    <line x1="24" y1="372" x2="52" y2="372" stroke="#8fa3c7" stroke-width="2"/>
+    <text x="60" y="376">effect within the same step</text>
+    <line x1="250" y1="372" x2="278" y2="372" stroke="#8fa3c7" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="286" y="376">effect carried from the previous step (memory, grazing)</text>
+  </g>
+</svg>

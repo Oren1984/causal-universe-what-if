@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 330" font-family="Segoe UI, Arial, sans-serif" role="img" aria-label="Architecture of Causal Universe">
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8fa3c7"/></marker>
+  </defs>
+  <rect width="940" height="330" rx="14" fill="#111a2b"/>
+  <rect x="300" y="26" width="616" height="278" rx="14" fill="none" stroke="#5fe0c0" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="318" y="50" fill="#5fe0c0" font-size="13">One Docker container · localhost:8080</text>
+
+  <g fill="#18243a" stroke="#8fa3c7" stroke-width="1.5">
+    <rect x="24" y="70" width="220" height="190" rx="12"/>
+    <rect x="330" y="70" width="250" height="84" rx="12"/>
+    <rect x="330" y="176" width="250" height="84" rx="12"/>
+    <rect x="650" y="70" width="240" height="84" rx="12"/>
+    <rect x="650" y="176" width="240" height="84" rx="12"/>
+  </g>
+  <g fill="#eaf0fa" font-size="15" font-weight="600">
+    <text x="42" y="98">Browser</text>
+    <text x="348" y="98">FastAPI · main.py</text>
+    <text x="348" y="204">Static files</text>
+    <text x="668" y="98">SCM engine · scm.py</text>
+    <text x="668" y="204">Experiments · experiments.py</text>
+  </g>
+  <g fill="#a9b8d0" font-size="12.5">
+    <text x="42" y="122">TypeScript + Canvas 2D</text>
+    <text x="42" y="142">Two animated worlds</text>
+    <text x="42" y="162">Causal graph (SVG)</text>
+    <text x="42" y="182">Evidence charts</text>
+    <text x="42" y="212">Renders and controls only.</text>
+    <text x="42" y="232">No science happens here.</text>
+    <text x="348" y="120">Typed, validated endpoints</text>
+    <text x="348" y="138">/api/model  /api/scenarios</text>
+    <text x="348" y="226">The built frontend (Vite)</text>
+    <text x="348" y="244">served from the same port</text>
+    <text x="668" y="120">Structural equations, do(),</text>
+    <text x="668" y="138">paired noise, effect metrics</text>
+    <text x="668" y="226">A to D, fixed seeds,</text>
+    <text x="668" y="244">results/experiments.json</text>
+  </g>
+  <g fill="none" stroke="#8fa3c7" stroke-width="2">
+    <path d="M246 112 L326 112" marker-end="url(#b)" marker-start="url(#b)"/>
+    <path d="M326 218 L250 218" marker-end="url(#b)"/>
+    <path d="M582 112 L646 112" marker-end="url(#b)"/>
+    <path d="M770 172 L770 158" marker-end="url(#b)"/>
+    <path d="M582 134 C620 134 610 218 646 218" marker-end="url(#b)"/>
+  </g>
+  <g fill="#a9b8d0" font-size="11.5" text-anchor="middle">
+    <text x="274" y="102">JSON</text>
+    <text x="274" y="208">HTML/JS</text>
+  </g>
+</svg>

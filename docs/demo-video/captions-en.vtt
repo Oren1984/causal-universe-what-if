@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:01.200 --> 00:00:04.571
+What if changing one variable could reshape an entire world?
+
+2
+00:00:05.021 --> 00:00:11.655
+This is Causal Universe: a small simulated ecosystem, built to show what a change really causes.
+
+3
+00:00:12.655 --> 00:00:18.437
+Here is the world. Sunlight shapes the rain. Rain fills the pond. Water grows the plants.
+
+4
+00:00:18.887 --> 00:00:22.001
+Plants produce food, and food sustains the creatures.
+
+5
+00:00:22.451 --> 00:00:28.062
+Each of these links is an explicit equation in a structural causal model, computed in Python.
+
+6
+00:00:29.062 --> 00:00:36.017
+Now we create a twin. World A and World B start identical, with the same weather and the same random luck.
+
+7
+00:00:36.467 --> 00:00:42.056
+On day sixty, in World B only, we reach in and set the rainfall to eighty-five percent.
+
+8
+00:00:42.506 --> 00:00:49.674
+This is an intervention. We do not wait for a rainy season. We replace the rainfall equation with a fixed value.
+
+9
+00:00:50.674 --> 00:00:59.058
+Watch the change travel. Water rises at once. Plants follow after four days, food after eight, and creatures after fourteen.
+
+10
+00:00:59.508 --> 00:01:05.588
+The causal graph shows why. The arrow into rainfall is cut, and everything downstream lights up.
+
+11
+00:01:06.038 --> 00:01:10.902
+Sunlight sits upstream of rainfall, so it stays exactly the same in both worlds.
+
+12
+00:01:11.902 --> 00:01:19.859
+By the end, World B holds far more life. Since the two worlds share everything except the intervention, that difference is its effect.
+
+13
+00:01:20.309 --> 00:01:26.581
+The measurements confirm it. After the intervention, the creature population averages forty percent higher.
+
+14
+00:01:27.031 --> 00:01:34.434
+Repeated across thirty random seeds, the effect holds: plus zero point two two, with a narrow confidence interval.
+
+15
+00:01:35.434 --> 00:01:42.282
+But observing is not intervening. Across three hundred worlds that we only watched, the rainier ones look less green.
+
+16
+00:01:42.732 --> 00:01:48.321
+Why? Sunny climates get less rain, yet grow plants faster. Sunlight is a confounder.
+
+17
+00:01:48.771 --> 00:01:53.635
+When we set the rain ourselves, plants grow. The correlation pointed the wrong way.
+
+18
+00:01:54.085 --> 00:02:02.448
+One caveat. This is a designed, synthetic world. It demonstrates causal reasoning. It does not discover laws of nature.
+
+19
+00:02:03.448 --> 00:02:07.608
+Causal Universe. What if? Developed and built by Oren Salami.
